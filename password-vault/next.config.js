@@ -1,6 +1,7 @@
 console.log("next.config.js: Loading config");
 
 const nextConfig = {
+  srcDir: 'src',
   /* config options here */
 };
 
