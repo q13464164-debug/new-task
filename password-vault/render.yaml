@@ -2,6 +2,6 @@ services:
   - type: web
     name: password-vault
     env: node
-    rootDir: .
+    rootDir: src
     buildCommand: npm run build
     startCommand: npm start
