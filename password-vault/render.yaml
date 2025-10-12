@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: password-vault
+    env: node
+    buildCommand: yarn
+    startCommand: npm start
