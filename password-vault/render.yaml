@@ -2,5 +2,6 @@ services:
   - type: web
     name: password-vault
     env: node
-    buildCommand: yarn build
+    rootDir: .
+    buildCommand: npm run build
     startCommand: npm start
